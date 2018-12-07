@@ -12,9 +12,9 @@ import java.util.List;
  * @created 2017-06-22 8:20 PM.
  */
 public class OracleConnection {
-    private static final String URL = "jdbc:oracle:thin:@prod.csphgnawyi6m.us-west-1.rds.amazonaws.com:1521:PROD1";
-    private static final String NAME = "prod_reader";
-    private static final String PSWD = "HXSOUlTsGSmFHwSrQcHIHSw8bQ";
+    private static final String URL = "";
+    private static final String NAME = "";
+    private static final String PSWD = "";
     public static Connection createConn(){
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
